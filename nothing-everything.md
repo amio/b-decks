@@ -1,6 +1,6 @@
 # Nothing & Everything
 
-有的没的
+> 有的没的
 
 ---
 
@@ -90,8 +90,11 @@ Common Rules
 
 ---
 
-> Manager: I want our web app to feel more like a native app  
-> You:
+### Manager:
+
+> I want our web app to feel more like a native app  
+
+### You:
 
 ```
 window.onerror = window.close
