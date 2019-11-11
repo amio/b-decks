@@ -37,8 +37,16 @@ https://runkit.com/amio/59376a8e551d0a0012ffc412
 
 ## webtask.io
 
-cron job
+- cron job
+- storage
 
+---
+
+- 1 request per second soft limit
+- 30 second execution limit
+- 10 CRON Schedules
+- 100 kb of code per task (not including npm modules)
+- 400 kb of storage via the Storage API
 
 ---
 
@@ -116,3 +124,15 @@ Start with statics.
 <style>
 .slide img { max-height: 700px; margin-bottom: -3em }
 </style>
+
+---
+
+JAM Stack
+
+https://jamstack.org/
+
+---
+
+Case Study
+
+https://vscode.rocks/vscode-issue-tracker/
