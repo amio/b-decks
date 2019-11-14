@@ -15,7 +15,7 @@
     <script>
       const deck = document.querySelector('markdown-deck')
       const search = window.location.search
-      deck.src = search ? search.replace(/^\?([\w-]+)/, '$1.md') : "index.md"
+      deck.src = search ? search.replace(/^\?([\w-]+)/, '$1/index.md') : "index.md"
     </script>
   </body>
 </html>
