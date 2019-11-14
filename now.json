@@ -1,0 +1,8 @@
+{
+  "name": "decks-bd",
+  "alias": "decks-bd",
+  "version": 2,
+  "routes": [
+    { "src": "/[-\\w]+", "dest": "/index.html" }
+  ]
+}

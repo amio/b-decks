@@ -111,13 +111,13 @@ Start with statics.
 
 ---
 
-![](aws-lambda-runtimes-pie.png)
+![](serverless/aws-lambda-runtimes-pie.png)
 
 > [aws lambda rumtimes](https://thenewstack.io/what-aws-lambdas-performance-stats-reveal/)
 
 ---
 
-![](aws-lambda-langs-codestart.png)
+![](serverless/aws-lambda-langs-codestart.png)
 
 > [aws lambda langs codestart](https://levelup.gitconnected.com/aws-lambda-cold-start-language-comparisons-2019-edition-%EF%B8%8F-1946d32a0244)
 
