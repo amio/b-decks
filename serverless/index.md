@@ -23,15 +23,15 @@ https://runkit.com/amio/5b5dbbc5e7c19a0012215f38
 
 ---
 
-### Domins Noti
-
-https://runkit.com/amio/592e305cd344c30012a7468f
-
----
-
 ### Lorem Ipsum
 
 https://runkit.com/amio/59376a8e551d0a0012ffc412
+
+---
+
+### Domins Noti
+
+https://runkit.com/amio/592e305cd344c30012a7468f
 
 ---
 
@@ -66,7 +66,6 @@ https://github.com/features/actions
 ---
 
 > Docker container actions are slower than JavaScript actions.
-
 
 [/about-actions](https://help.github.com/en/actions/automating-your-workflow-with-github-actions/about-actions#types-of-actions)
 
@@ -107,6 +106,28 @@ Start with statics.
 
 ---
 
+## Recommendation
+
+- Prototype: __RunKit__
+- Production: __Now__
+- Cron: __GitHub Actions__
+
+---
+
+## JAM Stack
+
+> JavaScript, API, Markup
+
+https://jamstack.org/
+
+---
+
+Case Study
+
+https://vscode.rocks/vscode-issue-tracker/
+
+---
+
 ## Serverless ♥️ Node.js
 
 ---
@@ -127,12 +148,13 @@ Start with statics.
 
 ---
 
-JAM Stack
-
-https://jamstack.org/
+> Get your hands dirty today
 
 ---
 
-Case Study
-
-https://vscode.rocks/vscode-issue-tracker/
+<style>
+  .slide {
+    background: url("serverless/tomorrow.jpg"); 
+    background-size: cover;
+  }
+</style>
