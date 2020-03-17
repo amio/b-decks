@@ -2,12 +2,7 @@
   "name": "decks-bd",
   "private": true,
   "scripts": {
-    "build:1": "eloc build cd/index.md -o public/cd -t 持续部署",
-    "build:2": "eloc build serverless/index.md -o public/serverless -i '*' -t 'Serverless: Part II'",
-    "build:3": "eloc build nothing-everything/index.md -o public/nothing-everything -t 有的没的",
-    "build:4": "eloc build eloquence/index.md -o public/nothing-everything -t 'Eloc: 雄辩的命令行'",
-    "build:index": "eloc build index.md -o public",
-    "build": "npm run build:index && npm run build:1 && npm run build:2 && npm run build:3 && npm run build:4"
+    "build": "decks=(aeolus-onpremise cd eloquence-cli nothing-everything serverless); for d in ${decks[@]}; do eloc build $d/index.md -o public/$d; done"
   },
   "devDependencies": {
     "eloc": "^1.1.19"
