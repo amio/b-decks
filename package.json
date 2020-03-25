@@ -2,10 +2,10 @@
   "name": "decks-bd",
   "private": true,
   "scripts": {
-    "batch-build": "for d in $(echo $DECKS | tr '/' '\n'); do eloc build $d/index.md -o public/$d; done",
+    "batch-build": "echo $DECKS | xargs -n1 -P4 -I{} eloc build {}/index.md -o public/{}",
     "build": "DECKS='aeolus-onpremise cd eloquence-cli nothing-everything serverless' npm run batch-build"
   },
   "devDependencies": {
-    "eloc": "^1.2.2"
+    "eloc": "^1.2.3"
   }
 }
