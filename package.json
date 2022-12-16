@@ -3,7 +3,7 @@
   "private": true,
   "scripts": {
     "batch-build": "echo $DECKS | xargs -n1 -P4 -I{} eloc build {}/index.md -o public/{}",
-    "build": "DECKS='aeolus-onpremise cd eloquence-cli nothing-everything serverless perf-metrics' npm run batch-build"
+    "build": "DECKS='aeolus-onpremise cd eloquence-cli nothing-everything serverless perf-metrics the-ide' npm run batch-build"
   },
   "devDependencies": {
     "eloc": "^1.2.3"
